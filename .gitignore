@@ -1,0 +1,30 @@
+# فایل‌های مخصوص macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# آیکون‌های پوشه‌ها (Icon\r در واقع یک فایل با نام خاص است)
+Icon?
+Icon\r
+Icon
+
+logo
+
+# فایل‌های پشتیبان
+*.bak
+*.swp
+*.tmp
+
+# فایل‌های منابع سیستمی اضافی
+._*
+
+# Spotlight
+.Spotlight-V100
+
+# سیستم پشتیبان‌گیری Time Machine
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# فایل‌های Cache از macOS
+.fseventsd

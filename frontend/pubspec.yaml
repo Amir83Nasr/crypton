@@ -1,0 +1,53 @@
+name: crypton_frontend
+description: 'UT frontend and backend project'
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  dio: ^5.8.0+1
+  shared_preferences: ^2.2.2
+  iconsax: ^0.0.8
+  flutter_dotenv: ^5.0.2
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: 'assets/icons/icon_dark.png'
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+    - .env
+
+  fonts:
+    - family: IranYekanX
+      fonts:
+        - asset: assets/fonts/IranYekanX/IRANYekanX-Light.ttf
+          weight: 300
+        - asset: assets/fonts/IranYekanX/IRANYekanX-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IranYekanX/IRANYekanX-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IranYekanX/IRANYekanX-DemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/IranYekanX/IRANYekanX-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/IranYekanX/IRANYekanX-ExtraBold.ttf
+          weight: 800

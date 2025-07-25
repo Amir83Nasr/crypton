@@ -1,0 +1,5 @@
+# Miscellaneous
+*.log
+.DS_Store
+
+/venv
