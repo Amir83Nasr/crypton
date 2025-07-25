@@ -8,7 +8,7 @@ class CustomDropdownInput<T> extends FormField<T> {
 
   CustomDropdownInput({
     super.key,
-    super.initialValue, // مقدار اولیه اختیاری
+    T? initialValue, // مقدار اولیه nullable
     required this.items,
     required this.labelText,
     super.validator,
@@ -64,7 +64,7 @@ class _CustomDropdownWidget<T> extends StatelessWidget {
         child: DropdownButton<T>(
           value: state.value,
           isDense: true,
-          icon: const SizedBox.shrink(), // آیکون پیش‌فرض حذف شده
+          icon: const SizedBox.shrink(),
           items: items,
           onChanged: (newValue) {
             state.didChange(newValue);
@@ -74,8 +74,6 @@ class _CustomDropdownWidget<T> extends StatelessWidget {
           itemHeight: 48,
           borderRadius: borderRadius,
           style: Theme.of(context).textTheme.bodyMedium,
-          // اینجا می‌تونیم ارتفاع منو یا max height هم تنظیم کنیم
-          // menuMaxHeight: 250,
         ),
       ),
     );

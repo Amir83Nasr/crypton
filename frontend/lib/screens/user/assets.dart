@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:crypton_frontend/theme.dart';
 import 'package:crypton_frontend/services/auth_api_service.dart';
 import 'package:crypton_frontend/widgets/custom_snackbar.dart';
-import 'package:iconsax/iconsax.dart';
 
 class Assets extends StatefulWidget {
   const Assets({super.key});
@@ -52,10 +51,10 @@ class _AssetsState extends State<Assets> {
           child: Text('همه دارایی‌ها', style: appTextTheme.titleMedium),
         ),
         leading: Padding(
-          padding: const EdgeInsets.only(top: 16, right: 16),
+          padding: const EdgeInsets.only(top: 20, right: 20),
           child: IconButton(
             onPressed: () => Navigator.pop(context),
-            icon: const Icon(Iconsax.arrow_right_1, size: 24),
+            icon: const Icon(Icons.arrow_back, size: 24),
           ),
         ),
       ),

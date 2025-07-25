@@ -248,10 +248,10 @@ class _SellState extends State<Sell> {
         centerTitle: true,
         toolbarHeight: 72,
         leading: Padding(
-          padding: const EdgeInsets.only(top: 16, right: 16),
+          padding: const EdgeInsets.only(top: 20, right: 20),
           child: IconButton(
             onPressed: () => Navigator.pop(context),
-            icon: const Icon(Iconsax.arrow_right_1, size: 24),
+            icon: const Icon(Icons.arrow_back, size: 24),
           ),
         ),
       ),

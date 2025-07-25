@@ -128,12 +128,10 @@ class _SwapState extends State<Swap> {
         context: context,
         message: '✅ سواپ با موفقیت انجام شد',
       );
-      _amountController.clear();
-      setState(() {
-        fromCoin = null;
-        toCoin = null;
-      });
-      await _fetchData();
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const Swap()),
+      );
     } catch (_) {
       showCustomSnackBar(
         context: context,
@@ -278,10 +276,10 @@ class _SwapState extends State<Swap> {
         centerTitle: true,
         toolbarHeight: 72,
         leading: Padding(
-          padding: const EdgeInsets.only(top: 16, right: 16),
+          padding: const EdgeInsets.only(top: 20, right: 20),
           child: IconButton(
             onPressed: () => Navigator.pop(context),
-            icon: const Icon(Iconsax.arrow_right_1, size: 24),
+            icon: const Icon(Icons.arrow_back, size: 24),
           ),
         ),
       ),

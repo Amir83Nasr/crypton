@@ -47,10 +47,10 @@ class _HistoryState extends State<History> {
 
         toolbarHeight: 72,
         leading: Padding(
-          padding: EdgeInsets.only(top: 16, right: 16),
+          padding: EdgeInsets.only(top: 20, right: 20),
           child: IconButton(
             onPressed: () => Navigator.pop(context),
-            icon: Icon(Iconsax.arrow_right_1, size: 24),
+            icon: Icon(Icons.arrow_back, size: 24),
           ),
         ),
       ),
