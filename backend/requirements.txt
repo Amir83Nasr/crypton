@@ -26,3 +26,6 @@ setuptools==80.9.0
 sqlparse==0.5.3
 uritemplate==4.2.0
 urllib3==2.5.0
+pytest==8.2.1
+pytest-django==4.8.0
+pytest-html==4.1.1
