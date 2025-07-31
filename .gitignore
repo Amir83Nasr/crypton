@@ -32,6 +32,7 @@ logo
 backend/core/migrations
 backend/core/__pycache__
 backend/config/__pycache__
+backend/tests/__pycache__
 
 #vscode config
 .vscode
