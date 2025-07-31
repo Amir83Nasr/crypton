@@ -41,4 +41,4 @@ backend/assets/
 backend/crypton_db
 backend/db.sqlite3
 backend/env/
-backend/reprot_result.html
+backend/report_result.html
