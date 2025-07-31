@@ -98,12 +98,11 @@ class WalletDetailAPIView(APIView):
 
 
 class CoinViewSet(viewsets.ModelViewSet):
-    queryset = Coin.objects.all().order_by("market_cap_rank")
+    queryset = Coin.objects.filter(is_active=True).order_by("market_cap_rank")
     serializer_class = CoinSerializer
     lookup_field = "symbol"
 
     def get_permissions(self):
-        # فقط ادمین بتونه ایجاد/ویرایش/حذف کنه، بقیه فقط بخونن
         if self.action in ["create", "update", "partial_update", "destroy"]:
             return [permissions.IsAdminUser()]
         return [permissions.AllowAny()]
@@ -325,11 +324,12 @@ class SwapView(APIView):
             status=200,
         )
 
+
 class UserTransactions(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
         user = request.user
-        transactions = Transaction.objects.filter(user=user).order_by('-timestamp')
+        transactions = Transaction.objects.filter(user=user).order_by("-timestamp")
         serializer = TransactionSerializer(transactions, many=True)
         return Response(serializer.data)
