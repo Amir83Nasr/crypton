@@ -4,9 +4,8 @@
 .LSOverride
 
 # آیکون‌های پوشه‌ها (Icon\r در واقع یک فایل با نام خاص است)
-Icon?
+/Icon?
 Icon\r
-Icon
 
 logo
 
