@@ -90,13 +90,9 @@ WSGI_APPLICATION = "config.wsgi.application"
 # Database
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "crypton_db",
-        "USER": "Amir83Nasr",
-        "PASSWORD": "0372660673",
-        "HOST": "localhost",  # معمولا 'localhost' یا IP سرور
-        "PORT": "5432",  # معمولا 5432 برای PostgreSQL
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
