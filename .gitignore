@@ -27,3 +27,17 @@ logo
 
 # فایل‌های Cache از macOS
 .fseventsd
+
+#python caches
+backend/core/migrations
+backend/core/__pycache__
+backend/config/__pycache__
+
+#vscode config
+.vscode
+
+backend/assets/
+backend/crypton_db
+backend/db.sqlite3
+backend/env/
+backend/reprot_result.html
