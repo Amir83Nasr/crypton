@@ -319,17 +319,6 @@
     "atl": 17833
   },
   {
-    "symbol": "bsc-usd",
-    "name": "Binance Bridged USDT (BNB Smart Chain)",
-    "image": "https://coin-images.coingecko.com/coins/images/35021/large/USDT.png?1707233575",
-    "current_price": 82577,
-    "market_cap": 494487351123220,
-    "total_volume": 416061841847470,
-    "market_cap_rank": 30,
-    "ath": 86619,
-    "atl": 77725
-  },
-  {
     "symbol": "usde",
     "name": "Ethena USDe",
     "image": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059",
@@ -361,17 +350,6 @@
     "market_cap_rank": 33,
     "ath": 2,
     "atl": 0
-  },
-  {
-    "symbol": "cbbtc",
-    "name": "Coinbase Wrapped BTC",
-    "image": "https://coin-images.coingecko.com/coins/images/40143/large/cbbtc.webp?1726136727",
-    "current_price": 8972403685,
-    "market_cap": 402911984581820,
-    "total_volume": 19695967755135,
-    "market_cap_rank": 34,
-    "ath": 9250081855,
-    "atl": 4738430305
   },
   {
     "symbol": "pi",
@@ -506,17 +484,6 @@
     "atl": 999
   },
   {
-    "symbol": "buidl",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "image": "https://coin-images.coingecko.com/coins/images/36291/large/blackrock.png?1711013223",
-    "current_price": 82495,
-    "market_cap": 238832347512465,
-    "total_volume": 0,
-    "market_cap_rank": 47,
-    "ath": 82495,
-    "atl": 82495
-  },
-  {
     "symbol": "jitosol",
     "name": "Jito Staked SOL",
     "image": "https://coin-images.coingecko.com/coins/images/28046/large/JitoSOL-200.png?1696527060",
@@ -647,17 +614,6 @@
     "market_cap_rank": 59,
     "ath": 1116157,
     "atl": 3023
-  },
-  {
-    "symbol": "fet",
-    "name": "Artificial Superintelligence Alliance",
-    "image": "https://coin-images.coingecko.com/coins/images/5681/large/ASI.png?1719827289",
-    "current_price": 64137,
-    "market_cap": 167491146271190,
-    "total_volume": 13713369391330,
-    "market_cap_rank": 60,
-    "ath": 284607,
-    "atl": 673
   },
   {
     "symbol": "ena",
@@ -792,17 +748,6 @@
     "atl": 115024428
   },
   {
-    "symbol": "jlp",
-    "name": "Jupiter Perpetuals Liquidity Provider Token",
-    "image": "https://coin-images.coingecko.com/coins/images/33094/large/jlp.png?1700631386",
-    "current_price": 370402,
-    "market_cap": 127337463315230,
-    "total_volume": 3984515924550,
-    "market_cap_rank": 73,
-    "ath": 414949,
-    "atl": 12113
-  },
-  {
     "symbol": "fdusd",
     "name": "First Digital USD",
     "image": "https://coin-images.coingecko.com/coins/images/31079/large/FDUSD_icon_black.png?1731097953",
@@ -856,17 +801,6 @@
     "market_cap_rank": 78,
     "ath": 164990,
     "atl": 25273
-  },
-  {
-    "symbol": "bnsol",
-    "name": "Binance Staked SOL",
-    "image": "https://coin-images.coingecko.com/coins/images/40132/large/bnsol.png?1725968367",
-    "current_price": 13633948,
-    "market_cap": 112554765685600,
-    "total_volume": 348330930255,
-    "market_cap_rank": 79,
-    "ath": 24580210,
-    "atl": 8266823
   },
   {
     "symbol": "tia",
@@ -1012,17 +946,6 @@
     "atl": 33176
   },
   {
-    "symbol": "usdt",
-    "name": "Polygon Bridged USDT (Polygon)",
-    "image": "https://coin-images.coingecko.com/coins/images/35023/large/USDT.png?1707233644",
-    "current_price": 82495,
-    "market_cap": 86945886227970,
-    "total_volume": 2460522433390,
-    "market_cap_rank": 93,
-    "ath": 84722,
-    "atl": 78034
-  },
-  {
     "symbol": "stx",
     "name": "Stacks",
     "image": "https://coin-images.coingecko.com/coins/images/2069/large/Stacks_Logo_png.png?1709979332",
@@ -1043,17 +966,6 @@
     "market_cap_rank": 95,
     "ath": 94044,
     "atl": 7867
-  },
-  {
-    "symbol": "usdc",
-    "name": "Binance Bridged USDC (BNB Smart Chain)",
-    "image": "https://coin-images.coingecko.com/coins/images/35220/large/USDC.jpg?1707919050",
-    "current_price": 82577,
-    "market_cap": 82478771666095,
-    "total_volume": 118520107250335,
-    "market_cap_rank": 96,
-    "ath": 85052,
-    "atl": 77783
   },
   {
     "symbol": "solvbtc",
@@ -1175,17 +1087,6 @@
     "market_cap_rank": 107,
     "ath": 65114953,
     "atl": 1946882
-  },
-  {
-    "symbol": "wbtc",
-    "name": "Arbitrum Bridged WBTC (Arbitrum One)",
-    "image": "https://coin-images.coingecko.com/coins/images/39532/large/wbtc.png?1722810336",
-    "current_price": 8956729635,
-    "market_cap": 73460903501685,
-    "total_volume": 6819535959740,
-    "market_cap_rank": 108,
-    "ath": 9233582855,
-    "atl": 4091257030
   },
   {
     "symbol": "ezeth",
@@ -1485,17 +1386,6 @@
     "atl": 77910
   },
   {
-    "symbol": "xsolvbtc",
-    "name": "Solv Protocol Staked BTC",
-    "image": "https://coin-images.coingecko.com/coins/images/39384/large/xSolvBTC.png?1744170824",
-    "current_price": 8903850340,
-    "market_cap": 53499037697560,
-    "total_volume": 74080345010,
-    "market_cap_rank": 136,
-    "ath": 9658267115,
-    "atl": 940618714
-  },
-  {
     "symbol": "core",
     "name": "Core",
     "image": "https://coin-images.coingecko.com/coins/images/28938/large/file_589.jpg?1701868471",
@@ -1617,17 +1507,6 @@
     "atl": 108313460
   },
   {
-    "symbol": "weth",
-    "name": "L2 Standard Bridged WETH (Base)",
-    "image": "https://coin-images.coingecko.com/coins/images/39810/large/weth.png?1724139790",
-    "current_price": 213207502,
-    "market_cap": 47282470149565,
-    "total_volume": 47606805429190,
-    "market_cap_rank": 148,
-    "ath": 337903644,
-    "atl": 115012054
-  },
-  {
     "symbol": "usdf",
     "name": "Falcon USD",
     "image": "https://coin-images.coingecko.com/coins/images/54558/large/ff_200_X_200.png?1740741076",
@@ -1705,17 +1584,6 @@
     "atl": 9342
   },
   {
-    "symbol": "cgeth.hashkey",
-    "name": "cgETH Hashkey Cloud",
-    "image": "https://coin-images.coingecko.com/coins/images/54162/large/Cgeth_Hashkey.png?1738482570",
-    "current_price": 221764708,
-    "market_cap": 44337275567025,
-    "total_volume": 1434588,
-    "market_cap_rank": 156,
-    "ath": 258142529,
-    "atl": 118025596
-  },
-  {
     "symbol": "cmeth",
     "name": "Mantle Restaked ETH",
     "image": "https://coin-images.coingecko.com/coins/images/51114/large/symbol.png?1730117724",
@@ -1725,17 +1593,6 @@
     "market_cap_rank": 157,
     "ath": 354635280,
     "atl": 122150346
-  },
-  {
-    "symbol": "btc.b",
-    "name": "Avalanche Bridged BTC (Avalanche)",
-    "image": "https://coin-images.coingecko.com/coins/images/26115/large/btcb.png?1696525205",
-    "current_price": 8971826220,
-    "market_cap": 43635620201670,
-    "total_volume": 1185631669180,
-    "market_cap_rank": 158,
-    "ath": 9233747845,
-    "atl": 643965044
   },
   {
     "symbol": "xcn",
@@ -1769,17 +1626,6 @@
     "market_cap_rank": 161,
     "ath": 9221456090,
     "atl": 833554228
-  },
-  {
-    "symbol": "weth",
-    "name": "Arbitrum Bridged WETH (Arbitrum One)",
-    "image": "https://coin-images.coingecko.com/coins/images/39713/large/WETH.PNG?1723731496",
-    "current_price": 213173679,
-    "market_cap": 42094858694315,
-    "total_volume": 21554322225765,
-    "market_cap_rank": 162,
-    "ath": 337995214,
-    "atl": 115106098
   },
   {
     "symbol": "lseth",
@@ -1868,17 +1714,6 @@
     "market_cap_rank": 170,
     "ath": 363802,
     "atl": 9074
-  },
-  {
-    "symbol": "usdc.e",
-    "name": "Bridged USDC (Polygon PoS Bridge)",
-    "image": "https://coin-images.coingecko.com/coins/images/33000/large/usdc.png?1700119918",
-    "current_price": 82470,
-    "market_cap": 37071077111880,
-    "total_volume": 1133631110920,
-    "market_cap_rank": 172,
-    "ath": 84804,
-    "atl": 80484
   },
   {
     "symbol": "syrup",
@@ -2244,17 +2079,6 @@
     "atl": 313
   },
   {
-    "symbol": "usdt",
-    "name": "Mantle Bridged USDT (Mantle)",
-    "image": "https://coin-images.coingecko.com/coins/images/35069/large/logo.png?1707291114",
-    "current_price": 82463,
-    "market_cap": 31035445187425,
-    "total_volume": 51588330745,
-    "market_cap_rank": 205,
-    "ath": 103943,
-    "atl": 71763
-  },
-  {
     "symbol": "sun",
     "name": "Sun Token",
     "image": "https://coin-images.coingecko.com/coins/images/12424/large/RSFOmQ.png?1696512245",
@@ -2310,28 +2134,6 @@
     "atl": 13611
   },
   {
-    "symbol": "cbeth",
-    "name": "Coinbase Wrapped Staked ETH",
-    "image": "https://coin-images.coingecko.com/coins/images/27008/large/cbeth.png?1709186989",
-    "current_price": 234852540,
-    "market_cap": 29346232277670,
-    "total_volume": 272712053495,
-    "market_cap_rank": 211,
-    "ath": 365829852,
-    "atl": 85544015
-  },
-  {
-    "symbol": "wbtc",
-    "name": "Polygon Bridged WBTC (Polygon POS)",
-    "image": "https://coin-images.coingecko.com/coins/images/39530/large/wbtc.png?1722809402",
-    "current_price": 8957554585,
-    "market_cap": 28571960771060,
-    "total_volume": 365831337060,
-    "market_cap_rank": 212,
-    "ath": 9209989285,
-    "atl": 4119552815
-  },
-  {
     "symbol": "zbcn",
     "name": "Zebec Network",
     "image": "https://coin-images.coingecko.com/coins/images/37052/large/zbcn.jpeg?1713168241",
@@ -2341,17 +2143,6 @@
     "market_cap_rank": 213,
     "ath": 577,
     "atl": 57
-  },
-  {
-    "symbol": "w",
-    "name": "Wormhole",
-    "image": "https://coin-images.coingecko.com/coins/images/35087/large/womrhole_logo_full_color_rgb_2000px_72ppi_fb766ac85a.png?1708688954",
-    "current_price": 6126,
-    "market_cap": 28303096201870,
-    "total_volume": 2542188111155,
-    "market_cap_rank": 214,
-    "ath": 136941,
-    "atl": 5382
   },
   {
     "symbol": "sweth",
@@ -2374,17 +2165,6 @@
     "market_cap_rank": 216,
     "ath": 3643,
     "atl": 357
-  },
-  {
-    "symbol": "ebtc",
-    "name": "Ether.fi Staked BTC",
-    "image": "https://coin-images.coingecko.com/coins/images/50411/large/eBTC.png?1727664788",
-    "current_price": 8931156185,
-    "market_cap": 28173202792175,
-    "total_volume": 30176011040,
-    "market_cap_rank": 217,
-    "ath": 9292566780,
-    "atl": 4850293525
   },
   {
     "symbol": "jst",
@@ -2440,17 +2220,6 @@
     "market_cap_rank": 222,
     "ath": 165046096,
     "atl": 652535
-  },
-  {
-    "symbol": "weth",
-    "name": "Polygon PoS Bridged WETH (Polygon POS)",
-    "image": "https://coin-images.coingecko.com/coins/images/39708/large/WETH.PNG?1723730343",
-    "current_price": 213203377,
-    "market_cap": 26860479078510,
-    "total_volume": 962797825080,
-    "market_cap_rank": 223,
-    "ath": 337486220,
-    "atl": 114728271
   },
   {
     "symbol": "bbsol",
@@ -2683,39 +2452,7 @@
     "ath": 293682,
     "atl": 29424
   },
-  {
-    "symbol": "usdo",
-    "name": "OpenEden OpenDollar",
-    "image": "https://coin-images.coingecko.com/coins/images/53750/large/USDO_LOGO-white.png?1737181887",
-    "current_price": 82742,
-    "market_cap": 23227351431410,
-    "total_volume": 215698026,
-    "market_cap_rank": 245,
-    "ath": 245010,
-    "atl": 81992
-  },
-  {
-    "symbol": "savax",
-    "name": "BENQI Liquid Staked AVAX",
-    "image": "https://coin-images.coingecko.com/coins/images/23657/large/savax_blue.png?1696522860",
-    "current_price": 2130020,
-    "market_cap": 23095241711045,
-    "total_volume": 25348486135,
-    "market_cap_rank": 246,
-    "ath": 8542357,
-    "atl": 763078
-  },
-  {
-    "symbol": "pnut",
-    "name": "Peanut the Squirrel",
-    "image": "https://coin-images.coingecko.com/coins/images/51301/large/Peanut_the_Squirrel.png?1734941241",
-    "current_price": 22780,
-    "market_cap": 22760583337100,
-    "total_volume": 8257123445445,
-    "market_cap_rank": 247,
-    "ath": 201287,
-    "atl": 2629
-  },
+
   {
     "symbol": "cwbtc",
     "name": "cWBTC",
@@ -2737,16 +2474,5 @@
     "market_cap_rank": 249,
     "ath": 51287966,
     "atl": 72312
-  },
-  {
-    "symbol": "cusdo",
-    "name": "Compounding OpenDollar",
-    "image": "https://coin-images.coingecko.com/coins/images/53751/large/cUSDO_logo_white.png?1737182014",
-    "current_price": 83897,
-    "market_cap": 22489487195665,
-    "total_volume": 725386289530,
-    "market_cap_rank": 250,
-    "ath": 85629,
-    "atl": 81333
   }
 ]

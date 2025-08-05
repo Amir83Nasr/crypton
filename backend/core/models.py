@@ -15,7 +15,6 @@ class CustomUserManager(BaseUserManager):
         user = self.model(username=username, **extra_fields)
         user.set_password(password)
         user.save(using=self._db)
-        # هنگام ساخت کاربر معمولی، به صورت خودکار کیف پول هم ایجاد کن
         Wallet.objects.create(user=user)
         return user
 
