@@ -1,5 +1,76 @@
-# Miscellaneous
-*.log
+# Python __pycache__ and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Env files
+.env
+.env.*
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
 .DS_Store
 
-/venv
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Migrations (optional: useful to ignore if auto-generated)
+**/migrations/
+!*/migrations/__init__.py
+
+# Database files (local dev only)
+*.sqlite3
+
+# Media and static files (generated)
+media/
+staticfiles/
+static/
+
+# Log files
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Test reports
+nosetests.xml
+test_*.xml
+pytest_cache/
+.tox/
+
+# MyPy and other type checkers
+.mypy_cache/
+.dmypy.json
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+
+# Docker
+*.pid
+*.pid.lock
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
